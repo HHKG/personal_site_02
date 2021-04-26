@@ -90,7 +90,8 @@
     "src/**/*.js": [
       "eslint --fix",
       "prettier --write",
-      "git add"
+      "git add",
+      "git commit"
     ]
   },
   "browserslist": {
