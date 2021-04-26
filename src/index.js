@@ -1,16 +1,13 @@
 import React from 'react'
-// import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom'
 import './index.css'
-// import App from './App'
+import App from './App'
 import reportWebVitals from './reportWebVitals'
-const array = [
-  { key: 'key', value: 'value' },
-  { key: 'key', value: 'value' },
-  { key: 'key', value: 'value' },
-]
 
 ReactDOM.render(
-  <React.StrictMode>{/* <App /> */}</React.StrictMode>,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 )
 
