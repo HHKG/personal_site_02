@@ -75,7 +75,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "lint": "eslint src/**/*.js",
-    "fix": "prettier --write src/**/*.js"
+    "fix": "prettier --write src/**/*.js",
+    "commit": "node ./node_modules/cz-customizable/standalone.js"
   },
   "eslintConfig": {
     "extends": [
@@ -167,6 +168,7 @@
     ]
   },
   "devDependencies": {
+    "cz-customizable": "^6.3.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
